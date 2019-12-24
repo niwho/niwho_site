@@ -1,5 +1,7 @@
 # github.com/dgrijalva/jwt-go v3.2.0+incompatible
 github.com/dgrijalva/jwt-go
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
+github.com/konsorten/go-windows-terminal-sequences
 # github.com/labstack/echo v3.3.10+incompatible
 github.com/labstack/echo
 github.com/labstack/echo/middleware
@@ -8,10 +10,29 @@ github.com/labstack/gommon/color
 github.com/labstack/gommon/log
 github.com/labstack/gommon/bytes
 github.com/labstack/gommon/random
+# github.com/mailru/easyjson v0.0.0-20180730094502-03f2033d19d5
+github.com/mailru/easyjson
+github.com/mailru/easyjson/jlexer
+github.com/mailru/easyjson/jwriter
+github.com/mailru/easyjson/buffer
 # github.com/mattn/go-colorable v0.1.2
 github.com/mattn/go-colorable
 # github.com/mattn/go-isatty v0.0.9
 github.com/mattn/go-isatty
+# github.com/niwho/elasticsearch v0.0.0-20180619101651-78b8a43b7b0e
+github.com/niwho/elasticsearch
+# github.com/niwho/logprovider v0.0.0-20180716031215-f6e96503983e
+github.com/niwho/logprovider
+# github.com/niwho/logs v0.0.0-20190531084657-1c1ac121febb
+github.com/niwho/logs
+# github.com/olivere/elastic v6.2.26+incompatible
+github.com/olivere/elastic
+github.com/olivere/elastic/config
+github.com/olivere/elastic/uritemplates
+# github.com/pkg/errors v0.8.1
+github.com/pkg/errors
+# github.com/sirupsen/logrus v1.4.2
+github.com/sirupsen/logrus
 # github.com/valyala/bytebufferpool v1.0.0
 github.com/valyala/bytebufferpool
 # github.com/valyala/fasttemplate v1.1.0
@@ -28,3 +49,11 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 golang.org/x/text/transform
+# gopkg.in/olivere/elastic.v3 v3.0.75
+gopkg.in/olivere/elastic.v3
+gopkg.in/olivere/elastic.v3/backoff
+gopkg.in/olivere/elastic.v3/uritemplates
+# gopkg.in/olivere/elastic.v5 v5.0.83
+gopkg.in/olivere/elastic.v5
+gopkg.in/olivere/elastic.v5/config
+gopkg.in/olivere/elastic.v5/uritemplates

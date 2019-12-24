@@ -15,10 +15,12 @@ func StartHttp(address string) {
 	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
 		AllowOrigins: []string{"*"},
 	}))
-	e.Static("dist", "/")
-
+	e.Static("/", "dist")
+	e.File("/", "dist/index.html")
 	err := e.Start(address)
 	if err != nil {
 		panic(fmt.Sprintf("start http server error:\v", err))
+	}else {
+		fmt.Println("http start:%s", address)
 	}
 }
