@@ -17,11 +17,11 @@ func StartHttp(address string) {
 	}))
 	e.Static("/", "dist")
 	e.File("/", "dist/index.html")
-	e.File("/about", "dist/index.html")
+	e.File("/about/", "dist/index.html")
 	err := e.Start(address)
 	if err != nil {
 		panic(fmt.Sprintf("start http server error:\v", err))
-	}else {
+	} else {
 		fmt.Println("http start:%s", address)
 	}
 }
