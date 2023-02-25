@@ -13,8 +13,7 @@ require (
 	github.com/olivere/elastic v6.2.26+incompatible // indirect
 	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/valyala/fasttemplate v1.1.0 // indirect
-	golang.org/x/crypto v0.0.0-20191219195013-becbf705a915 // indirect
-	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
+	golang.org/x/crypto v0.1.0 // indirect
 	gopkg.in/olivere/elastic.v3 v3.0.75 // indirect
 	gopkg.in/olivere/elastic.v5 v5.0.83 // indirect
 )
